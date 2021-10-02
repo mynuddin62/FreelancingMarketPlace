@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+<head>
+<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Job Forest</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/fontawesome/fontawesome-all.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/linearicons.css">
+	<link rel="stylesheet" href="css/prettyPhoto.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/chartist.css">
+	<link rel="stylesheet" href="css/scrollbar.css">
+	<link rel="stylesheet" href="css/chosen.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/color.css">
+	<link rel="stylesheet" href="css/transitions.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body class="jf-home jf-loginuser">
+<div class="preloader-outer">
+		<div class='loader'></div>
+	</div>
+<section class="jf-haslayout jf-sectionspace jf-bglight">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-sm-12 col-md-12 col-lg-12" id="magicdiv">
+							<div class="jf-sectionhead">
+								<h5>Pending Service</h5>
+							</div>
+							
+							<table class="table table-borded">
+								  <thead>
+								    <tr>
+								      <!--<th scope="col">Numbers</th>-->
+								      <th scope="col">Order Id</th>
+								      <th scope="col">Freelancer Name</th>
+								      <th scope="col">Delivery Date</th>
+								      <th scope="col">Amount</th>
+								      <!--<th scope="col">Attach Files</th>-->
+								      <th scope="col">Actions</th>
+								    </tr>
+								  </thead>
+								  <tbody>
+								  	<tr th:each="order: ${orders}">
+								  		<td th:text="${order.orderid}" />
+									  	<td th:text="${order.sellername}" />
+											<td th:text="${order.deliverydate}" />
+											<td th:text="${order.totalbudget}" />
+											<td>
+												<a th:href="@{/serviceAccepted(userId=${order.buyerid})}"  class="btn btn-info btn-sm">Accept</a>
+										</td>
+								  	</tr>
+								  </tbody>
+							</table>
+							<div>
+							<!--<a th:href="@{/seller(userId=${useer.id})}" class="btn btn-info btn-sm">Active Orders</a>-->
+							
+							</div>
+							
+					
+						</div>
+						<div class="jf-featuredjobs">
+							
+						</div>
+					</div>
+				</div>
+			</section>
+			<script src="js/vendor/jquery-3.3.1.js"></script>
+	<script src="js/vendor/jquery-library.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="https://maps.google.com/maps/api/js?key=AIzaSyCR-KEWAVCn52mSdeVeTqZjtqbmVJyfSus&amp;language=en"></script>
+	<script src="js/jquery.basictable.min.js"></script>
+	<script src="js/jquery.sortable.js"></script>
+	<script src="js/countdown.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/circle-progress.js"></script>
+	<script src="js/magnific-popup.js"></script>
+	<script src="js/scrollbar.min.js"></script>
+	<script src="js/chosen.jquery.js"></script>
+	<script src="js/prettyPhoto.js"></script>
+	<script src="js/chartist.js"></script>
+	<script src="js/appear.js"></script>
+	<script src="js/gmap3.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

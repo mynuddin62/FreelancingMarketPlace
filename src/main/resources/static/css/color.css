@@ -1,0 +1,86 @@
+/*==========================================================================================
+								Primery Theme Colors										
+==========================================================================================*/
+/*=============================================
+			Theme Text Color
+=============================================*/
+a,
+p a,
+p a:hover,
+a:hover,
+a:focus,
+a:active,
+.jf-stars span:after,
+.jf-empoyerinfo h2,
+.jf-btnjobalerts li.jf-btnfollowon a,
+.jf-btnmakedefault span,
+.jf-profilecomplete li.jf-profilecompleted i,
+.jf-smartscancontent span em,
+.jf-checkbox input[type=checkbox] + label:after,
+.jf-blogdetail .jf-description ul li:before,
+.jf-blogdetail .jf-description .jf-blockquotevtwo,
+.jf-jobdescription span:before,
+.jf-tagvtwo a:before,
+.jf-innerbannercontent h2,
+.jf-description blockquote q span
+
+{ color: #00cc67; }
+/*=============================================
+			Theme Background Color
+=============================================*/
+.jf-btn:hover,
+.jf-dropdowarrow,
+.navbar-toggle,
+.jf-searchoptions .form-group .jf-radio.jf-findjobs label,
+.jf-searchholder .chosen-container .chosen-results li.result-selected,
+.jf-searchholder .chosen-container .chosen-results li.highlighted,
+.jf-dashboardnav > ul > li > a:hover:after,
+.jf-dashboardnav > ul > li.menu-item-has-children > a:after,
+.jf-dashboardnav > ul > li.page_item_has_children > a:after,
+.jf-btnsearch,
+.jf-chartmonth li:hover a,
+.jf-chartmonth li.jf-active a,
+.jf-formsuccessstory .jf-textarea .form-group.jf-btns .jf-btn,
+.jf-btnaddproject,
+.jf-btnaddproject:focus,
+.jf-searchoptions .form-group:after,
+.jf-slidercontentholdervtwo .jf-searchoptions .form-group .jf-radio label:hover,
+.jf-slidercontentholdervtwo .jf-searchoptions .form-group .jf-radio input[type=radio]:checked + label,
+.jf-btn.jf-active,
+.jf-views ul li.jf-active a,
+.jf-views ul li:hover a,
+.jf-package:after,
+.jf-blogdetail .jf-description blockquote span i,
+.jf-pagesdetails li:after,
+.jf-themenavtabs li a:after,
+.jf-candidatessearch:hover .jf-employerdetails .jf-btn,
+.jf-usernav ul li a:before,
+.tg-qrcodedetails,
+.jf-dashboardnav > ul > li.jf-active > a:after,
+.jf-invoicestable tbody tr td:first-child:after,
+.loader:before,
+.jf-rightarea .jf-nav .navbar-toggler
+{ background:#00cc67; }
+.mCSB_scrollTools .mCSB_dragger,
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ background:#00cc67 !important;}
+/*=============================================
+			Theme Border Color
+=============================================*/
+input:focus,
+.jf-btn:hover,
+.select select:focus,
+.form-control:focus,
+.jf-formsuccessstory .jf-textarea .form-group.jf-btns .jf-btn,
+.jf-jobapplynowbtn .jf-btn,
+.jf-candidatessearch:hover .jf-employerdetails .jf-btn
+{ border-color: #00cc67; }
+.jf-searchoptions.js-employer .form-group:after{background: #324b6e;}
+.jf-searchoptions.js-candidate .form-group:after{background: #fc413c;}
+.loader {
+    background: #00cc67;
+    background: -moz-linear-gradient(left, #00cc67 10%, rgba(0, 204, 103, 0) 42%);
+    background: -webkit-linear-gradient(left, #00cc67 10%, rgba(0, 204, 103, 0) 42%);
+    background: -o-linear-gradient(left, #00cc67 10%, rgba(0, 204, 103, 0) 42%);
+    background: -ms-linear-gradient(left, #00cc67 10%, rgba(0, 204, 103, 0) 42%);
+    background: linear-gradient(to right, #00cc67 10%, rgba(255, 204, 103, 0) 42%);
+}

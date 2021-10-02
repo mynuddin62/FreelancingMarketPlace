@@ -1,0 +1,55 @@
+*:after,
+*:before,
+p a,
+a,
+.jf-socialicons li a,
+.jf-roundicontext,
+.jf-roundicontext .jf-usericonholder,
+.sub-menu,
+.mega-menu,
+.jf-languagedropdown li,
+.jf-searchoptions .form-group .jf-radio input[type=radio] + label,
+.jf-dashboardnav > ul > li > a,
+.jf-sidebarwrapper,
+.jf-wrapper,
+.jf-logo,
+.jf-wrapper.jf-openmenu .jf-logo img,
+.jf-logoicon,
+.jf-usernav,
+.jf-panel .jf-paneldetails,
+.jf-bannersuccessstory .jf-next,
+.jf-bannersuccessstory .jf-prev,
+.jf-newsarticle,
+.jf-posttag,
+.jf-widgetsearch .jf-btn,
+.jf-tag a,
+.jf-views ul li,
+.jf-navigation ul li,
+.jf-dropdownmenu li,
+.jf-dashboardnav ul li.menu-itjf-has-children .sub-menu li,
+.jf-dashboardnav ul li.menu-itjf-has-children .children li,
+.jf-dashboardnav ul li.page_item_has_children .sub-menu li,
+.jf-dashboardnav ul li.page_item_has_children .children li,
+.jf-invoicestable > tbody > tr,
+.jf-fixednav.jf-dashboardheader,
+.jf-dropdownmenu,
+.jf-languagedropdown
+
+{
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+
+.jf-sidenav, .jf-pagination ul li, .jf-iconhover,
+.jf-btnopenclose
+{
+	-webkit-transition: all 600ms ease-in-out;
+	-moz-transition: all 600ms ease-in-out;
+	-ms-transition: all 600ms ease-in-out;
+	-o-transition: all 600ms ease-in-out;
+	transition: all 600ms ease-in-out;
+}

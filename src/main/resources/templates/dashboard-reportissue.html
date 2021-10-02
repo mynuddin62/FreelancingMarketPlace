@@ -1,0 +1,739 @@
+<!doctype html>
+<!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>			<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->	<html class="no-js" lang=""> <!--<![endif]-->
+
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Job Forest</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/fontawesome/fontawesome-all.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/linearicons.css">
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<link rel="stylesheet" href="css/chartist.css">
+	<link rel="stylesheet" href="css/scrollbar.css">
+	<link rel="stylesheet" href="css/chosen.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/dashboard.css">
+	<link rel="stylesheet" href="css/color.css">
+	<link rel="stylesheet" href="css/transitions.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/dbresponsive.css">
+	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body class="jf-userlogin">
+	<!--[if lt IE 8]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<!--************************************
+			Preloader Start
+	*************************************-->
+	<div class="preloader-outer">
+		<div class='loader'></div>
+	</div>
+	<!--************************************
+			Preloader End
+	*************************************-->
+	<!--************************************
+			Wrapper Start
+	*************************************-->
+	<div id="jf-wrapper" class="jf-wrapper">
+		<!--************************************
+				Header Start
+		*************************************-->
+		<header id="jf-dashboardheader" class="jf-dashboardheader jf-haslayout">
+			<div class="jf-rightarea">
+				<ul class="jf-langnotification">
+					<li>
+						<a id="jf-languagesbutton" href="javascript:void(0);" class="jf-languagesbutton">
+							<span>Eng</span>
+							<i class="fa fa-angle-down"></i>
+						</a>
+						<ul class="jf-languagedropdown">
+							<li>
+								<a href="javascript:void(0);">
+									<span>en</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);">
+									<span>fr</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);">
+									<span>ar</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a class="jf-notification" href="javascript:void(0);">
+							<span class="jf-notificationtag">04</span>
+							<i class="lnr lnr-earth"></i>
+						</a>
+						<ul class="jf-dropdownmenu">
+							<li><p>Consectetur adipisicing elit, sed domod tempor incididunt <em>- June 27, 2019</em></p></li>
+							<li><p>Consectetur adipisicing elit, sed domod tempor incididunt</p></li>
+							<li><p>Consectetur adipisicing elit, sed domod tempor incididunt</p></li>
+							<li><p>Consectetur adipisicing elit, sed domod tempor incididunt</p></li>
+							<li><p>Consectetur adipisicing elit, sed domod tempor incididunt</p></li>
+							<li><p>Consectetur adipisicing elit, sed domod tempor incididunt</p></li>
+						</ul>
+					</li>
+				</ul>
+				<div class="jf-userlogedin">
+					<figure class="jf-userimg">
+						<img src="images/usrer-img-01.jpg" alt="image description">
+					</figure>
+					<div class="jf-username">
+						<h3>Margorie Wayman</h3>
+						<span>Sr. Creative Designer</span>
+					</div>
+					<nav class="jf-usernav">
+						<ul>
+							<li><a href="dashboard.html"><i class="ti-dashboard"></i><span> Insights</span></a></li>
+							<li><a href="dashboard-myprofile.html"><i class="ti-briefcase"></i><span>My Profile</span></a></li>
+							<li><a href="dashboard-resume.html"><i class="ti-file"></i><span>My Resume</span></a></li>
+							<li><a href="dashboard-cv-manager.html"><i class="ti-package"></i><span>CV Manager</span></a></li>
+							<li><a href="dashboard-jobalerts.html"><i class="ti-announcement"></i><span>Job Alerts</span></a></li>
+							<li><a href="dashboard-appliedjobs.html"><i class="ti-bookmark"></i><span>Applied Jobs</span></a></li>
+							<li><a href="dashboard-favouritejobs.html"><i class="ti-heart"></i><span>Favourite Jobs</span></a></li>
+							<li class="jf-profilenoti ">
+								<a href="dashboard-shortlisted.html">
+									<i class="ti-package"></i>
+									<span>Shortlisted Resume</span>
+								</a>
+							</li>							
+							<li class="jf-profilenoti ">
+								<a href="dashboard-qus-ans.html">
+									<i class="ti-announcement"></i>
+									<span>Questions &amp; Anwsers</span>
+								</a>
+							</li>							
+							<li>
+								<a href="dashboard-postajob.html">
+									<i class="ti-bookmark"></i>
+									<span>Post A New Job</span>
+								</a>
+							</li>
+							<li>
+								<a href="dashboard-companyprofile.html">
+									<i class="ti-briefcase"></i>
+									<span>Compony Profile</span>
+								</a>
+							</li>														
+							<li>
+								<a href="dashboard-managejobs.html">
+									<i class="ti-file"></i>
+									<span>Manage Jobs</span>
+								</a>
+							</li>														
+							<li>
+								<a href="dashboard-securitysetting.html"><i class="ti-alert"></i><span>Security Setting</span></a>
+							</li>
+							<li><a href="dashboard-privacysetting.html"><i class="ti-anchor"></i><span>Privacy Setting</span></a></li>
+							<li>
+								<a href="dashboard-myfollowing.html">
+									<i class="ti-flag-alt"></i>
+									<span>My Followings</span>
+								</a>
+							</li>
+							<li class="menu-item-has-children page_item_has_children">
+								<a href="javascript:void(0);"><i class="ti-money"></i><span>Packages</span></a>
+								<ul class="sub-menu children">
+									<li><a href="dashboard-packages.html"><i class="ti-money"></i><span>Packages</span></a></li>
+									<li><a href="dashboard-invoices.html"><i class="ti-layers"></i><span>Invoices</span></a></li>
+								</ul>
+							</li>
+							<li><a href="dashboard-reportissue.html"><i class="ti-unlink"></i><span>Report Issue</span></a></li>
+							<li class="jf-customnoti">
+								<a href="dashboard-customize.html">
+									<i class="ti-pencil-alt"></i>
+									<span>Customize Page</span>
+									<em>New</em>
+								</a>
+							</li>							
+							<li><a href="signin.html"><i class="ti-shift-right"></i><span>Logout</span></a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<form class="jf-formtheme jf-formsearch">
+				<fieldset>
+					<div class="form-group jf-inputwithicon">
+						<i class="lnr lnr-magnifier"></i>
+						<input type="text" name="jobtitle" class="form-control" placeholder="Job Title, Skills or Company">
+					</div>
+					<div class="form-group jf-inputwithicon">
+						<i class="lnr lnr-map-marker"></i>
+						<span class="jf-select">
+							<select data-placeholder="All" name="locations">
+								<option value="">Location</option>
+								<option value="aberdeen">Aberdeen</option>
+								<option value="aldershot">Aldershot</option>
+								<option value="altrincham">Altrincham</option>
+								<option value="aylesbury">Aylesbury</option>
+								<option value="bamber">Bamber</option>
+								<option value="bangor">Bangor</option>
+								<option value="batley">Batley</option>
+								<option value="bebingto">Bebingto</option>
+								<option value="bedford">Bedford</option>
+								<option value="birmingham">Birmingham</option>
+								<option value="blackpool">Blackpool</option>
+								<option value="brentwood">Brentwood</option>
+								<option value="bristol">Bristol</option>
+								<option value="cardiff">Cardiff</option>
+								<option value="carlisle">Carlisle</option>
+								<option value="crawley">Crawley</option>
+								<option value="darlington">Darlington</option>
+								<option value="eastleigh">Eastleigh</option>
+								<option value="edinburg">Edinburg</option>
+								<option value="esher">Esher</option>
+								<option value="glasgow-sco">Glasgow SCO</option>
+								<option value="guildford">Guildford</option>
+								<option value="halesowen">Halesowen</option>
+								<option value="halifax">Halifax</option>
+								<option value="hamilton">Hamilton</option>
+								<option value="leeds">Leeds</option>
+								<option value="leicester">Leicester</option>
+								<option value="liverpool">Liverpool</option>
+								<option value="london">London</option>
+								<option value="louisville">Louisville</option>
+								<option value="manchester">Manchester</option>
+								<option value="sheffield">Sheffield</option>
+							</select>
+						</span>
+					</div>
+					<div class="form-group jf-inputwithicon">
+						<i class="lnr lnr-layers"></i>
+						<span class="jf-select">
+							<select data-placeholder="All" name="findjobs">
+								<option value="">Find Jobs</option>
+								<option value="Find Jobs">Find Jobs</option>
+								<option value="Find Jobs">Find Jobs</option>
+								<option value="Find Jobs">Find Jobs</option>
+								<option value="Find Jobs">Find Jobs</option>
+								<option value="Find Jobs">Find Jobs</option>
+								<option value="Find Jobs">Find Jobs</option>
+								<option value="Find Jobs">Find Jobs</option>
+							</select>
+						</span>
+					</div>
+					<a class="jf-btnsearch" href="javascript:void(0)"><i class="lnr lnr-magnifier"></i></a>
+				</fieldset>
+			</form>
+			<div class="jf-filtertype">
+				<a class="jf-advancedlink" href="javascript:void(0)"><i class="lnr lnr-magnifier"></i></a>
+				<form id="jf-formsearchbar" class="jf-formtheme jf-formsearch">
+					<fieldset>
+						<div class="form-group jf-inputwithicon">
+							<i class="lnr lnr-magnifier"></i>
+							<input type="text" name="jobtitle" class="form-control" placeholder="Job Title, Skills or Company">
+						</div>
+						<div class="form-group jf-inputwithicon">
+							<i class="lnr lnr-map-marker"></i>
+							<span class="jf-select">
+								<select data-placeholder="All" name="locations">
+									<option value="">Location</option>
+									<option value="aberdeen">Aberdeen</option>
+									<option value="aldershot">Aldershot</option>
+									<option value="altrincham">Altrincham</option>
+									<option value="aylesbury">Aylesbury</option>
+									<option value="bamber">Bamber</option>
+									<option value="bangor">Bangor</option>
+									<option value="batley">Batley</option>
+									<option value="bebingto">Bebingto</option>
+									<option value="bedford">Bedford</option>
+									<option value="birmingham">Birmingham</option>
+									<option value="blackpool">Blackpool</option>
+									<option value="brentwood">Brentwood</option>
+									<option value="bristol">Bristol</option>
+									<option value="cardiff">Cardiff</option>
+									<option value="carlisle">Carlisle</option>
+									<option value="crawley">Crawley</option>
+									<option value="darlington">Darlington</option>
+									<option value="eastleigh">Eastleigh</option>
+									<option value="edinburg">Edinburg</option>
+									<option value="esher">Esher</option>
+									<option value="glasgow-sco">Glasgow SCO</option>
+									<option value="guildford">Guildford</option>
+									<option value="halesowen">Halesowen</option>
+									<option value="halifax">Halifax</option>
+									<option value="hamilton">Hamilton</option>
+									<option value="leeds">Leeds</option>
+									<option value="leicester">Leicester</option>
+									<option value="liverpool">Liverpool</option>
+									<option value="london">London</option>
+									<option value="louisville">Louisville</option>
+									<option value="manchester">Manchester</option>
+									<option value="sheffield">Sheffield</option>
+								</select>
+							</span>
+						</div>
+						<div class="form-group jf-inputwithicon">
+							<i class="lnr lnr-layers"></i>
+							<span class="jf-select">
+								<select data-placeholder="All" name="findjobs">
+									<option value="">Find Jobs</option>
+									<option value="Find Jobs">Find Jobs</option>
+									<option value="Find Jobs">Find Jobs</option>
+									<option value="Find Jobs">Find Jobs</option>
+									<option value="Find Jobs">Find Jobs</option>
+									<option value="Find Jobs">Find Jobs</option>
+									<option value="Find Jobs">Find Jobs</option>
+									<option value="Find Jobs">Find Jobs</option>
+								</select>
+							</span>
+						</div>
+						<div class="form-group jf-formbtnarea">
+							<a class="jf-btnsearch" href="javascript:void(0)"><i class="lnr lnr-magnifier"></i></a>
+							<a id="jf-closebar" class="jf-closebar" href="javascript:void(0)"><i class="lnr lnr-cross"></i></a>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+			<div id="jf-sidebarwrapper" class="jf-sidebarwrapper">
+				<a id="jf-btnmenutoggle" href="javascript:void(0);" class="jf-btnmenutoggle"><i class="lnr lnr-menu"></i></a>
+				<div class="jf-verticalscrollbar">
+					<div class="jf-logoarea">
+						<a class="jf-logoicon" href="index-2.html"><img src="images/logo-icon.png" alt="imagedescription" class="mCS_img_loaded"></a>
+						<strong class="jf-logo"><a href="index-2.html"><img src="images/logow.png" alt="image description" class="mCS_img_loaded"></a></strong>
+					</div>
+					<nav id="jf-dashboardnav" class="jf-dashboardnav">
+						<ul>
+							<li class="jf-insightesnoti jf-notificationicon">
+								<a href="dashboard.html">
+									<i class="ti-dashboard"></i>
+									<span> Insights</span>
+								</a>
+							</li>
+							<li class="jf-profilenoti jf-notificationicon">
+								<a href="dashboard-myprofile.html">
+									<i class="ti-briefcase"></i>
+									<span>My Profile</span>
+								</a>
+							</li>
+							<li class="jf-myresumenoti jf-notificationicon">
+								<a href="dashboard-resume.html">
+									<i class="ti-file"></i>
+									<span>My Resume</span>
+								</a>
+							</li>
+							<li>
+								<a href="dashboard-cv-manager.html">
+									<i class="ti-package"></i>
+									<span>CV Manager</span>
+								</a>
+							</li>
+							<li>
+								<a href="dashboard-jobalerts.html">
+									<i class="ti-announcement"></i>
+									<span>Job Alerts</span>
+								</a>
+							</li>
+							<li>
+								<a href="dashboard-appliedjobs.html">
+									<i class="ti-bookmark"></i>
+									<span>Applied Jobs</span>
+								</a>
+							</li>
+							<li class="jf-profilenoti jf-notificationicon">
+								<a href="dashboard-shortlisted.html">
+									<i class="ti-package"></i>
+									<span>Shortlisted Resume</span>
+								</a>
+							</li>							
+							<li class="jf-profilenoti jf-notificationicon">
+								<a href="dashboard-qus-ans.html">
+									<i class="ti-announcement"></i>
+									<span>Questions &amp; Anwsers</span>
+								</a>
+							</li>							
+							<li>
+								<a href="dashboard-postajob.html">
+									<i class="ti-bookmark"></i>
+									<span>Post A New Job</span>
+								</a>
+							</li>
+							<li>
+								<a href="dashboard-companyprofile.html">
+									<i class="ti-briefcase"></i>
+									<span>Compony Profile</span>
+								</a>
+							</li>														
+							<li>
+								<a href="dashboard-managejobs.html">
+									<i class="ti-file"></i>
+									<span>Manage Jobs</span>
+								</a>
+							</li>														
+							<li>
+								<a href="dashboard-favouritejobs.html">
+									<i class="ti-heart"></i>
+									<span>Favourite Jobs</span>
+								</a>
+							</li>
+							<li>
+								<a href="dashboard-myfollowing.html">
+									<i class="ti-flag-alt"></i>
+									<span>My Followings</span>
+								</a>
+							</li>
+							<li class="jf-packagesnoti jf-notificationicon menu-item-has-children page_item_has_children"><span class="jf-dropdowarrow"><i class="fa fa-angle-down"></i></span><span class="jf-dropdowarrow"><i class="fa fa-angle-down"></i></span>
+								<a href="javascript:void(0);"><i class="ti-money"></i><span>Packages</span></a>
+								<ul class="sub-menu children">
+									<li><a href="dashboard-packages.html"><i class="ti-money"></i><span>Packages</span></a></li>
+									<li><a href="dashboard-invoices.html"><i class="ti-layers"></i><span>Invoices</span></a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="dashboard-privacysetting.html">
+									<i class="ti-anchor"></i>
+									<span>Privacy Setting</span>
+								</a>
+							</li>
+							<li>
+								<a href="dashboard-securitysetting.html">
+									<i class="ti-alert"></i>
+									<span>Security Settings</span>
+								</a>
+							</li>
+							<li class="jf-active jf-reportissuenoti jf-notificationicon">
+								<a href="dashboard-reportissue.html">
+									<i class="ti-unlink"></i>
+									<span>Report Issue</span>
+								</a>
+							</li>
+							<li class="jf-customnoti">
+								<a href="dashboard-customize.html">
+									<i class="ti-pencil-alt"></i>
+									<span>Customize Page</span>
+									<em>New</em>
+								</a>
+							</li>							
+						</ul>
+					</nav>
+					<div id="weather"></div>
+				</div>
+				<a class="jf-btnlogout" href="javascript:void(0);"><i class="ti-power-off"></i></a>
+			</div>
+		</header>
+		<!--************************************
+				Header End
+		*************************************-->
+		<!--************************************
+				Dashboard Inner Banner Start
+		*************************************-->
+		<div id="jf-dashboardbanner" class="jf-dashboardbanner">
+			<h1>Report Issue</h1>
+			<ol class="jf-breadcrumb">
+				<li><a href="javascript:void(0);">Dashboard</a></li>
+				<li><a href="javascript:void(0);">Report Issue</a></li>
+			</ol>
+		</div>
+		<!--************************************
+				Dashboard Inner Banner End
+		*************************************-->
+		<!--************************************
+				Main Start
+		*************************************-->
+		<main id="jf-main" class="jf-main jf-haslayout">
+			<div class="jf-dbsectionspace jf-haslayout">
+				<div class="row">
+				<!--************************************
+						Report Issue Start
+				*************************************-->
+					<div class="col-12 col-sm-12 col-md-12 col-lg-6">
+						<div class="jf-dashboardbox jf-reportissue">
+							<div class="jf-dashboardboxtitle">
+								<h2>Report Issue</h2>
+								<span>Send Issue To Support Team</span>
+							</div>
+							<div class="jf-dashbboardcontent">
+								<form class="jf-formtheme jf-formsummary jf-formsummaryvtwo">
+									<fieldset>
+										<div class="form-group jf-inputwithicon">
+											<i class="lnr lnr-lock"></i>
+											<span class="jf-select">
+												<select>
+													<option>Problem</option>
+													<option>Problem</option>
+													<option>Problem</option>
+													<option>Problem</option>
+												</select>
+											</span>
+										</div>
+										<div class="form-group jf-inputwithicon jf-textarea">
+											<i class="lnr lnr-bubble"></i>
+											<textarea placeholder="Introduction"></textarea>
+										</div>
+										<div class="form-group jf-btns">
+											<a class="jf-btn" href="javascript:void(0);">Submit</a>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+					</div>
+				<!--************************************
+						Report Issue End
+				*************************************-->
+				<!--************************************
+						Report Log Start
+				*************************************-->
+					<div class="col-12 col-sm-12 col-md-12 col-lg-6">
+						<div class="jf-dashboardbox">
+							<div class="jf-dashboardboxtitle">
+								<h2>Report Log</h2>
+								<span>Complaint/Issue Log</span>
+							</div>
+							<ul id="accordion" class="jf-reportlog jf-verticalscrollbar">
+								<li id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									<div class="jf-reportlogdate">
+										<span>27<em>Jun</em></span>
+									</div>
+									<div class="jf-reportloginfo">
+										<div class="jf-title">
+											<h3>Profile Photo Issue</h3>
+										</div>
+										<div class="jf-description">
+											<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt utnali labore etdoli magna aliqu enim ad minitm veniam quisti nostrud exercitation ullamco.</p>
+										</div>
+									</div>
+								</li>
+								<li id="collapseOne" class="jf-reportlogdetails collapse show jf-approvedrequirments" aria-labelledby="headingOne" data-parent="#accordion">
+									<div class="jf-reportloginfo">
+										<div class="jf-title jf-titlewithicon">
+											<h3><i class="fa fa-reply"></i> Profile Photo Issue</h3>
+										</div>
+										<div class="jf-description">
+											<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt utnali labore etdoli magna aliqu enim ad minitm veniam quisti nostrud exercitation ullamco.</p>
+										</div>
+										<div class="jf-reportreplyinfo">
+											<span class="jf-reportreplied">Replied: Jun 22, 2019 - 10:10 am</span>
+											<div class="jf-rightarea">
+												<span>Was this reply helped you?</span>
+												<a href="javascript:void(0);" class="jf-thumbdown"><i class="ti-thumb-down"></i></a>
+												<a href="javascript:void(0);" class="jf-thumbup"><i class="ti-thumb-up"></i></a>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li id="headingtwo" data-toggle="collapse" data-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+									<div class="jf-reportlogdate">
+										<span>21<em>Jun</em></span>
+									</div>
+									<div class="jf-reportloginfo">
+										<div class="jf-title">
+											<h3>Package Expiry Issue</h3>
+										</div>
+										<div class="jf-description">
+											<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt utnali labore etdoli magna aliqu enim ad minitm veniam quisti nostrud exercitation ullamco.</p>
+										</div>
+									</div>
+								</li>
+								<li id="collapsetwo" class="jf-reportlogdetails collapse hide jf-approvedrequirments" aria-labelledby="headingtwo" data-parent="#accordion">
+									<div class="jf-reportloginfo">
+										<div class="jf-title jf-titlewithicon">
+											<h3><i class="fa fa-reply"></i> Package Expiry Issue</h3>
+										</div>
+										<div class="jf-description">
+											<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt utnali labore etdoli magna aliqu enim ad minitm veniam quisti nostrud exercitation ullamco.</p>
+										</div>
+										<div class="jf-reportreplyinfo">
+											<span class="jf-reportreplied">Replied: Jun 22, 2019 - 10:10 am</span>
+											<div class="jf-rightarea">
+												<span>Was this reply helped you?</span>
+												<a href="javascript:void(0);" class="jf-thumbdown"><i class="ti-thumb-down"></i></a>
+												<a href="javascript:void(0);" class="jf-thumbup"><i class="ti-thumb-up"></i></a>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li id="headingthree" data-toggle="collapse" data-target="#collapsethree" aria-expanded="true" aria-controls="collapsethree">
+									<div class="jf-reportlogdate">
+										<span>15<em>May</em></span>
+									</div>
+									<div class="jf-reportloginfo">
+										<div class="jf-title">
+											<h3>Resume Related Issue</h3>
+										</div>
+										<div class="jf-description">
+											<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt utnali labore etdoli magna aliqu enim ad minitm veniam quisti nostrud exercitation ullamco.</p>
+										</div>
+									</div>
+								</li>
+								<li id="collapsethree" class="jf-reportlogdetails collapse hide jf-approvedrequirments" aria-labelledby="headingthree" data-parent="#accordion">
+									<div class="jf-reportloginfo">
+										<div class="jf-title jf-titlewithicon">
+											<h3><i class="fa fa-reply"></i> Resume Related Issue</h3>
+										</div>
+										<div class="jf-description">
+											<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt utnali labore etdoli magna aliqu enim ad minitm veniam quisti nostrud exercitation ullamco.</p>
+										</div>
+										<div class="jf-reportreplyinfo">
+											<span class="jf-reportreplied">Replied: Jun 22, 2019 - 10:10 am</span>
+											<div class="jf-rightarea">
+												<span>Was this reply helped you?</span>
+												<a href="javascript:void(0);" class="jf-thumbdown"><i class="ti-thumb-down"></i></a>
+												<a href="javascript:void(0);" class="jf-thumbup"><i class="ti-thumb-up"></i></a>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li id="headingfour" data-toggle="collapse" data-target="#collapsefour" aria-expanded="true" aria-controls="collapsefour">
+									<div class="jf-reportlogdate">
+										<span>06<em>Apr</em></span>
+									</div>
+									<div class="jf-reportloginfo">
+										<div class="jf-title">
+											<h3>Profile Banner Issue</h3>
+										</div>
+										<div class="jf-description">
+											<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt utnali labore etdoli magna aliqu enim ad minitm veniam quisti nostrud exercitation ullamco.</p>
+										</div>
+									</div>
+								</li>
+								<li id="collapsefour" class="jf-reportlogdetails collapse hide jf-approvedrequirments" aria-labelledby="headingfour" data-parent="#accordion">
+									<div class="jf-reportloginfo">
+										<div class="jf-title jf-titlewithicon">
+											<h3><i class="fa fa-reply"></i> Profile Banner Issue</h3>
+										</div>
+										<div class="jf-description">
+											<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt utnali labore etdoli magna aliqu enim ad minitm veniam quisti nostrud exercitation ullamco.</p>
+										</div>
+										<div class="jf-reportreplyinfo">
+											<span class="jf-reportreplied">Replied: Jun 22, 2019 - 10:10 am</span>
+											<div class="jf-rightarea">
+												<span>Was this reply helped you?</span>
+												<a href="javascript:void(0);" class="jf-thumbdown"><i class="ti-thumb-down"></i></a>
+												<a href="javascript:void(0);" class="jf-thumbup"><i class="ti-thumb-up"></i></a>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li id="headingfive" data-toggle="collapse" data-target="#collapsefive" aria-expanded="true" aria-controls="collapsefive">
+									<div class="jf-reportlogdate">
+										<span>27<em>Jun</em></span>
+									</div>
+									<div class="jf-reportloginfo">
+										<div class="jf-title">
+											<h3>Profile Photo Issue</h3>
+										</div>
+										<div class="jf-description">
+											<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt utnali labore etdoli magna aliqu enim ad minitm veniam quisti nostrud exercitation ullamco.</p>
+										</div>
+									</div>
+								</li>
+								<li id="collapsefive" class="jf-reportlogdetails collapse hide jf-approvedrequirments" aria-labelledby="headingfive" data-parent="#accordion">
+									<div class="jf-reportloginfo">
+										<div class="jf-title jf-titlewithicon">
+											<h3><i class="fa fa-reply"></i> Profile Photo Issue</h3>
+										</div>
+										<div class="jf-description">
+											<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt utnali labore etdoli magna aliqu enim ad minitm veniam quisti nostrud exercitation ullamco.</p>
+										</div>
+										<div class="jf-reportreplyinfo">
+											<span class="jf-reportreplied">Replied: Jun 22, 2019 - 10:10 am</span>
+											<div class="jf-rightarea">
+												<span>Was this reply helped you?</span>
+												<a href="javascript:void(0);" class="jf-thumbdown"><i class="ti-thumb-down"></i></a>
+												<a href="javascript:void(0);" class="jf-thumbup"><i class="ti-thumb-up"></i></a>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li id="headingsix" data-toggle="collapse" data-target="#collapsesix" aria-expanded="true" aria-controls="collapsesix">
+									<div class="jf-reportlogdate">
+										<span>21<em>Jun</em></span>
+									</div>
+									<div class="jf-reportloginfo">
+										<div class="jf-title">
+											<h3>Package Expiry Issue</h3>
+										</div>
+										<div class="jf-description">
+											<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt utnali labore etdoli magna aliqu enim ad minitm veniam quisti nostrud exercitation ullamco.</p>
+										</div>
+									</div>
+								</li>
+								<li id="collapsesix" class="jf-reportlogdetails collapse hide jf-approvedrequirments" aria-labelledby="headingsix" data-parent="#accordion">
+									<div class="jf-reportloginfo">
+										<div class="jf-title jf-titlewithicon">
+											<h3><i class="fa fa-reply"></i> Package Expiry Issue</h3>
+										</div>
+										<div class="jf-description">
+											<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt utnali labore etdoli magna aliqu enim ad minitm veniam quisti nostrud exercitation ullamco.</p>
+										</div>
+										<div class="jf-reportreplyinfo">
+											<span class="jf-reportreplied">Replied: Jun 22, 2019 - 10:10 am</span>
+											<div class="jf-rightarea">
+												<span>Was this reply helped you?</span>
+												<a href="javascript:void(0);" class="jf-thumbdown"><i class="ti-thumb-down"></i></a>
+												<a href="javascript:void(0);" class="jf-thumbup"><i class="ti-thumb-up"></i></a>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				<!--************************************
+						Report Log End
+				*************************************-->
+				</div>
+			</div>
+		</main>
+		<!--************************************
+				Main End
+		*************************************-->
+		<!--************************************
+				Footer Start
+		*************************************-->
+		<footer id="jf-footer" class="jf-footer jf-haslayout">
+			<nav class="jf-addnav">
+				<ul>
+					<li><a href="javascript:void(0);">Listing Policy</a></li>
+					<li><a href="javascript:void(0);">Terms of Use</a></li>
+					<li><a href="javascript:void(0);">Privacy Policy</a></li>
+				</ul>
+			</nav>
+			<p class="jf-copyrights"><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></p>
+		</footer>
+		<!--************************************
+				Footer End
+		*************************************-->
+	</div>
+	<!--************************************
+			Wrapper End
+	*************************************-->
+	<script src="js/vendor/jquery-3.3.1.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ3q6w3hiHe_MIbB1Jy31bGOwL8LYlwJw"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/circle-progress.js"></script>
+	<script src="js/jquery.basictable.min.js"></script>
+	<script src="js/jquery.sortable.js"></script>
+	<script src="js/countdown.min.js"></script>
+	<script src="js/jquery.collapse.js"></script>
+	<script src="js/scrollbar.min.js"></script>
+	<script src="js/chosen.jquery.js"></script>
+	<script src="js/prettyPhoto.js"></script>
+	<script src="js/chartist.js"></script>
+	<script src="js/appear.js"></script>
+	<script src="js/gmap3.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+
+</html>

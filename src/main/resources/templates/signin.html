@@ -1,0 +1,177 @@
+<!doctype html>
+<!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>			<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->	<html class="no-js" lang="zxx"> <!--<![endif]-->
+
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Job Forest</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/fontawesome/fontawesome-all.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/linearicons.css">
+	<link rel="stylesheet" href="css/prettyPhoto.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/chartist.css">
+	<link rel="stylesheet" href="css/scrollbar.css">
+	<link rel="stylesheet" href="css/chosen.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/color.css">
+	<link rel="stylesheet" href="css/transitions.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body class="jf-home jf-loginuser">
+	<!--[if lt IE 8]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<!--************************************
+			Preloader Start
+	*************************************-->
+	<div class="preloader-outer">
+		<div class='loader'></div>
+	</div>
+	<!--************************************
+			Preloader End
+	*************************************-->
+	<!--************************************
+			Wrapper Start
+	*************************************-->
+	<div id="jf-wrapper" class="jf-wrapper jf-haslayout">
+			<!--************************************
+					Main Start
+			*************************************-->
+		<main id="jf-main" class="jf-main jf-haslayout">
+			<!--************************************
+					Sign In Start
+			*************************************-->
+			<div class="jf-signincontent">
+				<div class="container">
+					<div class="row justify-content-md-center">
+						<div class="col-xs-12 col-sm-12 col-md-10 col-md-push-1 col-lg-6 col-lg-push-3">
+							<div class="jf-logoareavtwo">
+								<strong class="jf-logo"><a href="javascript:void(0);"><img src="images/signin.png" alt="image description"></a></strong>
+							</div>
+							<div class="jf-logindetails">
+								<div class="jf-titlelogin">
+									<h2>Sign In</h2>
+								</div>
+								<form th:action="@{/logIn}" th:object="${user}"class="jf-formtheme jf-formlogin" method="POST">
+									<fieldset>
+										<div class="form-group jf-inputwithicon">
+											<i class="lnr lnr-envelope"></i>
+											<input type="email" name="email" class="form-control" placeholder="Email Address" th:field="*{email}">
+										</div>
+										<div class="form-group jf-inputwithicon">
+											<i class="lnr lnr-lock"></i>
+											<input type="password" name="password" class="form-control" placeholder="Password" th:field="*{password}">
+										</div>
+										<div class="form-group jf-signedcheck">
+											<span class="jf-checkbox">
+												<input type="checkbox" id="jf-signed" name="signed" value="">
+												<label for="jf-signed">
+													<span>Keep me signed in on this device.</span>
+												</label>
+											</span>
+											<p class="form-group jf-inputwithicon" th:if="${invalid}" style="color: red;"> Use Valid Credentials </p>
+										</div>
+										<div class="form-group jf-btnsarea">
+											<button type="submit" class="jf-btn jf-active btn-primary" id="showtoast">Sign In</button>
+										</div>
+									</fieldset>
+								</form>
+								<div class="jf-socialiconssignin">
+									<span class="jf-signinnext">or</span>
+									<div class="jf-signinicons">
+										<a href="javascript:void(0);" class="jf-signinfacebook">
+											<i class="fa fa-facebook-f"></i><span>Sign In with facebook</span>
+										</a>
+										<a href="javascript:void(0);" class="jf-signingoogle">
+											<span><i class="fa fa-google"></i>Sign In with google</span>
+										</a>
+									</div>
+								</div>
+								<div class="jf-loginfooter">
+									<div class="jf-description">
+										<p>By signing in to your account, you agree to these <a href="javascript:void(0);">Terms &amp; Conditions </a>and consent to our <a href="javascript:void(0);">Cookie Policy &amp; Privacy Policy.</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="jf-signupbottombar">
+								<ul>
+									<li><span>Not a member? <a th:href="@{/signUp}">Signup Now</a></span></li>
+									<li><span><a href="javascript:void(0);">Forgot Your Password?</a></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--************************************
+					Sign In End
+			*************************************-->
+		</main>
+			<!--************************************
+					Main End
+			*************************************-->
+			<!--************************************
+					Footer Start
+			*************************************-->
+			<footer id="jf-footer" class="jf-footer jf-footersignin jf-haslayout">
+				<div class="jf-footerbottom">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<p class="jf-copyrights"><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></p>
+								<nav class="jf-addnav">
+									<ul>
+										<li><a href="javascript:void(0);">Privacy Policy</a></li>
+										<li><a href="javascript:void(0);">Terms &amp; Conditions</a></li>
+										<li><a href="javascript:void(0);">FAQs</a></li>
+										<li><a href="javascript:void(0);">Sitemap</a></li>
+										<li><a href="javascript:void(0);">Report Issue</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!--************************************
+					Footer End
+			*************************************-->
+	</div>
+	<!--************************************
+			Wrapper End
+	*************************************-->
+	<script src="js/vendor/jquery-3.3.1.js"></script>
+	<script src="js/vendor/jquery-library.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="https://maps.google.com/maps/api/js?key=AIzaSyCR-KEWAVCn52mSdeVeTqZjtqbmVJyfSus&amp;language=en"></script>
+	<script src="js/jquery.basictable.min.js"></script>
+	<script src="js/jquery.sortable.js"></script>
+	<script src="js/countdown.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/circle-progress.js"></script>
+	<script src="js/magnific-popup.js"></script>
+	<script src="js/scrollbar.min.js"></script>
+	<script src="js/chosen.jquery.js"></script>
+	<script src="js/prettyPhoto.js"></script>
+	<script src="js/chartist.js"></script>
+	<script src="js/appear.js"></script>
+	<script src="js/gmap3.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+
+</html>
